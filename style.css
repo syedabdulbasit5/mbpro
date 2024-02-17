@@ -1,0 +1,63 @@
+.div-1{
+    background-color: orange;
+    position: relative;
+    height: 450px;
+}
+*{
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+    padding: 1px ;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#img-1{
+    width: 150px;
+    height: 100px;
+    left: 10px; 
+    mix-blend-mode: multiply;
+    
+}
+nav ul li {
+ display: inline-block;
+ margin: 10px 15px;
+}
+nav ul li a{
+    color:white;
+}
+.login ,.signup{
+    color: white;
+    margin: 2px;
+}
+.content{
+    margin-top: 10px;
+    max-width: 600px;
+}
+.content h1{
+    font-size: 70px;
+    color:white;
+}
+.content p{
+    margin: 10px 0 30px;
+    color: white;
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    width: 140px;
+    height: 30px;
+}
+.mblogo1{
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    bottom: 10px;
+    right: 10%;
+    mix-blend-mode: multiply;
+}
+.bhn a{
+    color: orange;
+}
